@@ -13,7 +13,7 @@ let increment;
 let slider;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(displayWidth, displayHeight);
   xGrid = (width-2*margin)/numX;
   yGrid = (height-2*margin)/numY;
   colorMode(HSB,360,100,100);
