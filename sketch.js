@@ -14,10 +14,10 @@ let slider;
 
 function setup() {
   createCanvas(displayWidth, displayHeight);
-  xGrid = (width-2*margin)/numX;
-  yGrid = (height-2*margin)/numY;
   numX = 500;
   numY = 500;
+  xGrid = (width-2*margin)/numX;
+  yGrid = (height-2*margin)/numY;
   colorMode(HSB,360,100,100);
   slider = createSlider(0, 0.1,0.0001,0.001);
   slider.style('width', '100px');
