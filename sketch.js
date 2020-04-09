@@ -16,8 +16,8 @@ function setup() {
   createCanvas(displayWidth, displayHeight);
   xGrid = (width-2*margin)/numX;
   yGrid = (height-2*margin)/numY;
-  numX = width/r;
-  numY = height/r;
+  numX = 2*width/r;
+  numY = 2*height/r;
   colorMode(HSB,360,100,100);
   slider = createSlider(0, 0.1,0.0001,0.001);
   slider.style('width', '100px');
